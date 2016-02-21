@@ -2,7 +2,7 @@
  * Creates a Verb object.
  * @constructor
  * @param {Integer} ch The chapter of Wheelock (7 ed.) in which the verb is introduced. Else -1.
- * @param {Integer/String} conj The conjugation of the verb; 1-4 or "3io". Else -1.
+ * @param {Integer|String} conj The conjugation of the verb; 1-4 or "3io". Else -1.
  * @param {String} p1 The first principal part. Leave blank if no pp exists. At least one of the four pps must be given.
  * @param {String} p2 See on `p1`.
  * @param {String} p3 See on `p1`.
